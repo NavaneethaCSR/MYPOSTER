@@ -3,15 +3,20 @@
 	padding: 0;
   font-family: 'Montserrat',Sans-seriff;
 }
+
 .header{
 	min-height: 100vh;
 	width: 100%;
-     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("Hero.png");  
+     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Hero.png);  
 	 
 	 background-position: center;
 	 background-size: cover;
 	 position: relative;
 	}
+
+
+
+
 nav{
 	display: flex;
 	padding: 2% 6%;
@@ -95,27 +100,53 @@ padding: 5px;
 }
 .row4 {
 	
-	 flex-basis: 31%;
-	background: #fff3f3;
-	border-radius: 10px;
-	margin-bottom: 5%;
-	padding: 20px 12px;
-	box-sizing: border-box;
-	 width: 150px;
-	 justify-content:center;
-	 display: flex;
+	 margin: auto;
+  width: 10%;
+  text-align: center;
+  padding: 10px;
+  background: #fff3f3;
+  font-size: 10px;
 	}
-	.prop {
-		flex-basis: 32%;
-		border-radius: 10px;
-		margin-bottom: 30px;
-		position: relative;
-		overflow: hidden;
+	.prop img{
+     width: 15%;
 	}
-	.prop img {
-		width: 550px;
-		
-      }
+	.pinkbrick{
+		flex: 1;
+		background:pink;
+		padding: 30px;
+		font-size: 12px;
+	flex-direction: column-reverse;
+	}
+
+
+
+	.moderncorner{
+		flex: 1;
+		background:pink;
+		padding: 30px;
+		font-size: 12px;
+	flex-direction: column-reverse;
+	}
+
+
+
+	.whitecurve{
+		flex: 1;
+			background:pink;
+		padding: 30px;
+		font-size: 12px;
+		flex-direction: column-reverse;
+
+	}
+
+	.blackbox{
+		flex: 1;
+			background:pink;
+		padding: 30px;
+		font-size: 12px;
+			flex-direction: column-reverse;
+	}
+	
 /*---------About Us--------*/
 .aboutus p {
 	font-size: 10px;
@@ -142,8 +173,7 @@ padding: 5px;
       justify-content: center;
   
  } 
- 
-	
+ .
 .about1 {
 background: #fff;
 	margin: 5px;
@@ -173,19 +203,15 @@ font-size: 20px;
 text-align: center;
 }
 .con{
-padding: 1px;
-	font-size: 10px;
-	width: 150px;
-	height: 50px;
-	border: 1px;
-   flex-basis: 31%;
-	background: #fff3f3;
-	border-radius: 10px;
-	margin-bottom: 5%;
-	padding: 20px 12px;
-	box-sizing: border-box;
-	text-align: center;
-	display: flex;
+  margin: auto;
+  width: 10%;
+  text-align: center;
+  padding: 20px;
+  background: #fff3f3;
+  font-size: 10px;
+  
+  margin-bottom: 5%;
+
 }
 .con1{
 	text-align: center;
@@ -196,4 +222,32 @@ padding: 1px;
  text-align: left;
  display: flex;
 
+}
+/*------------------News---------------*/
+.news h1{
+padding: 10px;
+}
+.news p {
+	font-size: 10px;
+	padding: 10px;
+}
+.news h2{
+	font-size: 10px;
+	padding: 10px;
+}
+.nav4-links {
+	padding: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	font-color:blue;
+}
+*{
+	box-sizing: border-box;
+}
+
+
+#news2{
+	
+	width: 33.3%;
+	text-align: right;
 }
