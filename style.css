@@ -25,6 +25,8 @@ nav img {
 .nav-links {
  flex: 1;
  text-align: right;
+	color: black;
+	
 
 }
 .nav-links ul li {
@@ -32,6 +34,7 @@ nav img {
 	display: inline-block;
 	padding: 8px 12px;
 	position: relative;
+	color: black;
 
 }
 .nav-links ul li a {
